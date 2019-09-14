@@ -551,7 +551,7 @@ export const DataTypes = () => {
       <p>the value of {printCalling("hello")}</p>
       <p>the value is {splitWord("hello", 3)}</p>
       <p>the value of {repeatVowels("Lakshmi")}</p>
-      <p>the first value of {repeatVowels("Lakshmi")}</p>
+      <p>the first value of new CI {repeatVowels("Lakshmi")}</p>
     </div>
   );
 };
