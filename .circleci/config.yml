@@ -27,7 +27,7 @@ jobs:
             - v1-dependencies-
 
       - run: npm install
-
+      
       - save_cache:
           paths:
             - node_modules
@@ -35,6 +35,8 @@ jobs:
 
       # run tests!
       - run: npm test
+      - run: npm rebuild node-sass
+
 
       - run: npm run build
 
